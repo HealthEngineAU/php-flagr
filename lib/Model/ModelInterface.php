@@ -8,6 +8,7 @@
  * @package  Flagr\Client\Model
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
+ * @implements ArrayAccess<int|string, mixed>
  */
 
 /**

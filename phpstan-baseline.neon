@@ -1,0 +1,3176 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Anonymous function has an unused use \\$returnType\\.$#"
+			count: 1
+			path: lib/Api/ConstraintApi.php
+
+		-
+			message: "#^Call to function in_array\\(\\) requires parameter \\#3 to be set\\.$#"
+			count: 3
+			path: lib/Api/ConstraintApi.php
+
+		-
+			message: "#^Call to function is_array\\(\\) with Flagr\\\\Client\\\\Model\\\\CreateConstraintRequest will always evaluate to false\\.$#"
+			count: 2
+			path: lib/Api/ConstraintApi.php
+
+		-
+			message: "#^Call to function is_array\\(\\) with int will always evaluate to false\\.$#"
+			count: 10
+			path: lib/Api/ConstraintApi.php
+
+		-
+			message: "#^Comparison operation \"\\>\" between 0 and 0 is always false\\.$#"
+			count: 4
+			path: lib/Api/ConstraintApi.php
+
+		-
+			message: "#^If condition is always false\\.$#"
+			count: 8
+			path: lib/Api/ConstraintApi.php
+
+		-
+			message: "#^Instanceof between \\*NEVER\\* and stdClass will always evaluate to false\\.$#"
+			count: 2
+			path: lib/Api/ConstraintApi.php
+
+		-
+			message: "#^Instanceof between Flagr\\\\Client\\\\Model\\\\CreateConstraintRequest and stdClass will always evaluate to false\\.$#"
+			count: 2
+			path: lib/Api/ConstraintApi.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Api\\\\ConstraintApi\\:\\:createConstraintWithHttpInfo\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Api/ConstraintApi.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Api\\\\ConstraintApi\\:\\:createHttpClientOption\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Api/ConstraintApi.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Api\\\\ConstraintApi\\:\\:deleteConstraintWithHttpInfo\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Api/ConstraintApi.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Api\\\\ConstraintApi\\:\\:findConstraintsWithHttpInfo\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Api/ConstraintApi.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Api\\\\ConstraintApi\\:\\:putConstraintWithHttpInfo\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Api/ConstraintApi.php
+
+		-
+			message: "#^Only booleans are allowed in a negated boolean, resource\\|false given\\.$#"
+			count: 1
+			path: lib/Api/ConstraintApi.php
+
+		-
+			message: "#^Only booleans are allowed in a ternary operator condition, Psr\\\\Http\\\\Message\\\\ResponseInterface\\|null given\\.$#"
+			count: 8
+			path: lib/Api/ConstraintApi.php
+
+		-
+			message: "#^Only booleans are allowed in a ternary operator condition, string given\\.$#"
+			count: 4
+			path: lib/Api/ConstraintApi.php
+
+		-
+			message: "#^Only booleans are allowed in an if condition, string given\\.$#"
+			count: 4
+			path: lib/Api/ConstraintApi.php
+
+		-
+			message: "#^Parameter \\#1 \\$value of static method Flagr\\\\Client\\\\ObjectSerializer\\:\\:toPathValue\\(\\) expects string, int given\\.$#"
+			count: 10
+			path: lib/Api/ConstraintApi.php
+
+		-
+			message: "#^Parameter \\#3 \\$responseHeaders of class Flagr\\\\Client\\\\ApiException constructor expects array\\<string\\>\\|null, array\\<array\\<string\\>\\> given\\.$#"
+			count: 4
+			path: lib/Api/ConstraintApi.php
+
+		-
+			message: "#^Parameter \\#3 \\$responseHeaders of class Flagr\\\\Client\\\\ApiException constructor expects array\\<string\\>\\|null, array\\<array\\<string\\>\\>\\|null given\\.$#"
+			count: 4
+			path: lib/Api/ConstraintApi.php
+
+		-
+			message: "#^Result of && is always false\\.$#"
+			count: 16
+			path: lib/Api/ConstraintApi.php
+
+		-
+			message: "#^Result of \\|\\| is always false\\.$#"
+			count: 12
+			path: lib/Api/ConstraintApi.php
+
+		-
+			message: "#^Short ternary operator is not allowed\\. Use null coalesce operator if applicable or consider using long ternary\\.$#"
+			count: 3
+			path: lib/Api/ConstraintApi.php
+
+		-
+			message: "#^Strict comparison using \\!\\=\\= between '\\\\\\\\Flagr\\\\\\\\Client\\\\\\\\Model…' and 'string' will always evaluate to true\\.$#"
+			count: 3
+			path: lib/Api/ConstraintApi.php
+
+		-
+			message: "#^Strict comparison using \\!\\=\\= between int and null will always evaluate to true\\.$#"
+			count: 10
+			path: lib/Api/ConstraintApi.php
+
+		-
+			message: "#^Strict comparison using \\=\\=\\= between '\\\\\\\\Flagr\\\\\\\\Client\\\\\\\\Model…' and '\\\\\\\\SplFileObject' will always evaluate to false\\.$#"
+			count: 6
+			path: lib/Api/ConstraintApi.php
+
+		-
+			message: "#^Strict comparison using \\=\\=\\= between \\*NEVER\\* and 0 will always evaluate to false\\.$#"
+			count: 12
+			path: lib/Api/ConstraintApi.php
+
+		-
+			message: "#^Strict comparison using \\=\\=\\= between Flagr\\\\Client\\\\Model\\\\CreateConstraintRequest and null will always evaluate to false\\.$#"
+			count: 2
+			path: lib/Api/ConstraintApi.php
+
+		-
+			message: "#^Strict comparison using \\=\\=\\= between int and null will always evaluate to false\\.$#"
+			count: 10
+			path: lib/Api/ConstraintApi.php
+
+		-
+			message: "#^Variable \\$_tempBody in isset\\(\\) always exists and is always null\\.$#"
+			count: 2
+			path: lib/Api/ConstraintApi.php
+
+		-
+			message: "#^Variable \\$_tempBody in isset\\(\\) always exists and is not nullable\\.$#"
+			count: 2
+			path: lib/Api/ConstraintApi.php
+
+		-
+			message: "#^Variable \\$body in isset\\(\\) always exists and is not nullable\\.$#"
+			count: 2
+			path: lib/Api/ConstraintApi.php
+
+		-
+			message: "#^Call to function in_array\\(\\) requires parameter \\#3 to be set\\.$#"
+			count: 2
+			path: lib/Api/DistributionApi.php
+
+		-
+			message: "#^Call to function is_array\\(\\) with Flagr\\\\Client\\\\Model\\\\PutDistributionsRequest will always evaluate to false\\.$#"
+			count: 1
+			path: lib/Api/DistributionApi.php
+
+		-
+			message: "#^Call to function is_array\\(\\) with int will always evaluate to false\\.$#"
+			count: 4
+			path: lib/Api/DistributionApi.php
+
+		-
+			message: "#^Comparison operation \"\\>\" between 0 and 0 is always false\\.$#"
+			count: 2
+			path: lib/Api/DistributionApi.php
+
+		-
+			message: "#^If condition is always false\\.$#"
+			count: 4
+			path: lib/Api/DistributionApi.php
+
+		-
+			message: "#^Instanceof between \\*NEVER\\* and stdClass will always evaluate to false\\.$#"
+			count: 1
+			path: lib/Api/DistributionApi.php
+
+		-
+			message: "#^Instanceof between Flagr\\\\Client\\\\Model\\\\PutDistributionsRequest and stdClass will always evaluate to false\\.$#"
+			count: 1
+			path: lib/Api/DistributionApi.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Api\\\\DistributionApi\\:\\:createHttpClientOption\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Api/DistributionApi.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Api\\\\DistributionApi\\:\\:findDistributionsWithHttpInfo\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Api/DistributionApi.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Api\\\\DistributionApi\\:\\:putDistributionsWithHttpInfo\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Api/DistributionApi.php
+
+		-
+			message: "#^Only booleans are allowed in a negated boolean, resource\\|false given\\.$#"
+			count: 1
+			path: lib/Api/DistributionApi.php
+
+		-
+			message: "#^Only booleans are allowed in a ternary operator condition, Psr\\\\Http\\\\Message\\\\ResponseInterface\\|null given\\.$#"
+			count: 4
+			path: lib/Api/DistributionApi.php
+
+		-
+			message: "#^Only booleans are allowed in a ternary operator condition, string given\\.$#"
+			count: 2
+			path: lib/Api/DistributionApi.php
+
+		-
+			message: "#^Only booleans are allowed in an if condition, string given\\.$#"
+			count: 2
+			path: lib/Api/DistributionApi.php
+
+		-
+			message: "#^Parameter \\#1 \\$value of static method Flagr\\\\Client\\\\ObjectSerializer\\:\\:toPathValue\\(\\) expects string, int given\\.$#"
+			count: 4
+			path: lib/Api/DistributionApi.php
+
+		-
+			message: "#^Parameter \\#3 \\$responseHeaders of class Flagr\\\\Client\\\\ApiException constructor expects array\\<string\\>\\|null, array\\<array\\<string\\>\\> given\\.$#"
+			count: 2
+			path: lib/Api/DistributionApi.php
+
+		-
+			message: "#^Parameter \\#3 \\$responseHeaders of class Flagr\\\\Client\\\\ApiException constructor expects array\\<string\\>\\|null, array\\<array\\<string\\>\\>\\|null given\\.$#"
+			count: 2
+			path: lib/Api/DistributionApi.php
+
+		-
+			message: "#^Result of && is always false\\.$#"
+			count: 7
+			path: lib/Api/DistributionApi.php
+
+		-
+			message: "#^Result of \\|\\| is always false\\.$#"
+			count: 5
+			path: lib/Api/DistributionApi.php
+
+		-
+			message: "#^Short ternary operator is not allowed\\. Use null coalesce operator if applicable or consider using long ternary\\.$#"
+			count: 3
+			path: lib/Api/DistributionApi.php
+
+		-
+			message: "#^Strict comparison using \\!\\=\\= between '\\\\\\\\Flagr\\\\\\\\Client\\\\\\\\Model…' and 'string' will always evaluate to true\\.$#"
+			count: 2
+			path: lib/Api/DistributionApi.php
+
+		-
+			message: "#^Strict comparison using \\!\\=\\= between int and null will always evaluate to true\\.$#"
+			count: 4
+			path: lib/Api/DistributionApi.php
+
+		-
+			message: "#^Strict comparison using \\=\\=\\= between '\\\\\\\\Flagr\\\\\\\\Client\\\\\\\\Model…' and '\\\\\\\\SplFileObject' will always evaluate to false\\.$#"
+			count: 4
+			path: lib/Api/DistributionApi.php
+
+		-
+			message: "#^Strict comparison using \\=\\=\\= between \\*NEVER\\* and 0 will always evaluate to false\\.$#"
+			count: 5
+			path: lib/Api/DistributionApi.php
+
+		-
+			message: "#^Strict comparison using \\=\\=\\= between Flagr\\\\Client\\\\Model\\\\PutDistributionsRequest and null will always evaluate to false\\.$#"
+			count: 1
+			path: lib/Api/DistributionApi.php
+
+		-
+			message: "#^Strict comparison using \\=\\=\\= between int and null will always evaluate to false\\.$#"
+			count: 4
+			path: lib/Api/DistributionApi.php
+
+		-
+			message: "#^Variable \\$_tempBody in isset\\(\\) always exists and is always null\\.$#"
+			count: 1
+			path: lib/Api/DistributionApi.php
+
+		-
+			message: "#^Variable \\$_tempBody in isset\\(\\) always exists and is not nullable\\.$#"
+			count: 1
+			path: lib/Api/DistributionApi.php
+
+		-
+			message: "#^Variable \\$body in isset\\(\\) always exists and is not nullable\\.$#"
+			count: 1
+			path: lib/Api/DistributionApi.php
+
+		-
+			message: "#^Call to function in_array\\(\\) requires parameter \\#3 to be set\\.$#"
+			count: 2
+			path: lib/Api/EvaluationApi.php
+
+		-
+			message: "#^Call to function is_array\\(\\) with Flagr\\\\Client\\\\Model\\\\EvalContext will always evaluate to false\\.$#"
+			count: 1
+			path: lib/Api/EvaluationApi.php
+
+		-
+			message: "#^Call to function is_array\\(\\) with Flagr\\\\Client\\\\Model\\\\EvaluationBatchRequest will always evaluate to false\\.$#"
+			count: 1
+			path: lib/Api/EvaluationApi.php
+
+		-
+			message: "#^Comparison operation \"\\>\" between 0 and 0 is always false\\.$#"
+			count: 2
+			path: lib/Api/EvaluationApi.php
+
+		-
+			message: "#^If condition is always false\\.$#"
+			count: 4
+			path: lib/Api/EvaluationApi.php
+
+		-
+			message: "#^Instanceof between Flagr\\\\Client\\\\Model\\\\EvalContext and stdClass will always evaluate to false\\.$#"
+			count: 1
+			path: lib/Api/EvaluationApi.php
+
+		-
+			message: "#^Instanceof between Flagr\\\\Client\\\\Model\\\\EvaluationBatchRequest and stdClass will always evaluate to false\\.$#"
+			count: 1
+			path: lib/Api/EvaluationApi.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Api\\\\EvaluationApi\\:\\:createHttpClientOption\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Api/EvaluationApi.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Api\\\\EvaluationApi\\:\\:postEvaluationBatchWithHttpInfo\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Api/EvaluationApi.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Api\\\\EvaluationApi\\:\\:postEvaluationWithHttpInfo\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Api/EvaluationApi.php
+
+		-
+			message: "#^Only booleans are allowed in a negated boolean, resource\\|false given\\.$#"
+			count: 1
+			path: lib/Api/EvaluationApi.php
+
+		-
+			message: "#^Only booleans are allowed in a ternary operator condition, Psr\\\\Http\\\\Message\\\\ResponseInterface\\|null given\\.$#"
+			count: 4
+			path: lib/Api/EvaluationApi.php
+
+		-
+			message: "#^Only booleans are allowed in a ternary operator condition, string given\\.$#"
+			count: 2
+			path: lib/Api/EvaluationApi.php
+
+		-
+			message: "#^Only booleans are allowed in an if condition, string given\\.$#"
+			count: 2
+			path: lib/Api/EvaluationApi.php
+
+		-
+			message: "#^Parameter \\#3 \\$responseHeaders of class Flagr\\\\Client\\\\ApiException constructor expects array\\<string\\>\\|null, array\\<array\\<string\\>\\> given\\.$#"
+			count: 2
+			path: lib/Api/EvaluationApi.php
+
+		-
+			message: "#^Parameter \\#3 \\$responseHeaders of class Flagr\\\\Client\\\\ApiException constructor expects array\\<string\\>\\|null, array\\<array\\<string\\>\\>\\|null given\\.$#"
+			count: 2
+			path: lib/Api/EvaluationApi.php
+
+		-
+			message: "#^Result of && is always false\\.$#"
+			count: 4
+			path: lib/Api/EvaluationApi.php
+
+		-
+			message: "#^Result of \\|\\| is always false\\.$#"
+			count: 2
+			path: lib/Api/EvaluationApi.php
+
+		-
+			message: "#^Short ternary operator is not allowed\\. Use null coalesce operator if applicable or consider using long ternary\\.$#"
+			count: 3
+			path: lib/Api/EvaluationApi.php
+
+		-
+			message: "#^Strict comparison using \\!\\=\\= between '\\\\\\\\Flagr\\\\\\\\Client\\\\\\\\Model…' and 'string' will always evaluate to true\\.$#"
+			count: 2
+			path: lib/Api/EvaluationApi.php
+
+		-
+			message: "#^Strict comparison using \\=\\=\\= between '\\\\\\\\Flagr\\\\\\\\Client\\\\\\\\Model…' and '\\\\\\\\SplFileObject' will always evaluate to false\\.$#"
+			count: 4
+			path: lib/Api/EvaluationApi.php
+
+		-
+			message: "#^Strict comparison using \\=\\=\\= between \\*NEVER\\* and 0 will always evaluate to false\\.$#"
+			count: 2
+			path: lib/Api/EvaluationApi.php
+
+		-
+			message: "#^Strict comparison using \\=\\=\\= between Flagr\\\\Client\\\\Model\\\\EvalContext and null will always evaluate to false\\.$#"
+			count: 1
+			path: lib/Api/EvaluationApi.php
+
+		-
+			message: "#^Strict comparison using \\=\\=\\= between Flagr\\\\Client\\\\Model\\\\EvaluationBatchRequest and null will always evaluate to false\\.$#"
+			count: 1
+			path: lib/Api/EvaluationApi.php
+
+		-
+			message: "#^Variable \\$_tempBody in isset\\(\\) always exists and is not nullable\\.$#"
+			count: 2
+			path: lib/Api/EvaluationApi.php
+
+		-
+			message: "#^Variable \\$body in isset\\(\\) always exists and is not nullable\\.$#"
+			count: 2
+			path: lib/Api/EvaluationApi.php
+
+		-
+			message: "#^Call to function in_array\\(\\) requires parameter \\#3 to be set\\.$#"
+			count: 2
+			path: lib/Api/ExportApi.php
+
+		-
+			message: "#^Comparison operation \"\\>\" between 0 and 0 is always false\\.$#"
+			count: 2
+			path: lib/Api/ExportApi.php
+
+		-
+			message: "#^If condition is always false\\.$#"
+			count: 4
+			path: lib/Api/ExportApi.php
+
+		-
+			message: "#^Instanceof between \\*NEVER\\* and stdClass will always evaluate to false\\.$#"
+			count: 2
+			path: lib/Api/ExportApi.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Api\\\\ExportApi\\:\\:createHttpClientOption\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Api/ExportApi.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Api\\\\ExportApi\\:\\:getExportEvalCacheJSONWithHttpInfo\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Api/ExportApi.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Api\\\\ExportApi\\:\\:getExportSqliteWithHttpInfo\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Api/ExportApi.php
+
+		-
+			message: "#^Only booleans are allowed in a negated boolean, resource\\|false given\\.$#"
+			count: 1
+			path: lib/Api/ExportApi.php
+
+		-
+			message: "#^Only booleans are allowed in a ternary operator condition, Psr\\\\Http\\\\Message\\\\ResponseInterface\\|null given\\.$#"
+			count: 4
+			path: lib/Api/ExportApi.php
+
+		-
+			message: "#^Only booleans are allowed in a ternary operator condition, string given\\.$#"
+			count: 2
+			path: lib/Api/ExportApi.php
+
+		-
+			message: "#^Only booleans are allowed in an if condition, string given\\.$#"
+			count: 2
+			path: lib/Api/ExportApi.php
+
+		-
+			message: "#^Parameter \\#1 \\$object of static method Flagr\\\\Client\\\\ObjectSerializer\\:\\:toQueryValue\\(\\) expects array\\<string\\>\\|DateTime\\|string, bool given\\.$#"
+			count: 1
+			path: lib/Api/ExportApi.php
+
+		-
+			message: "#^Parameter \\#3 \\$responseHeaders of class Flagr\\\\Client\\\\ApiException constructor expects array\\<string\\>\\|null, array\\<array\\<string\\>\\> given\\.$#"
+			count: 2
+			path: lib/Api/ExportApi.php
+
+		-
+			message: "#^Parameter \\#3 \\$responseHeaders of class Flagr\\\\Client\\\\ApiException constructor expects array\\<string\\>\\|null, array\\<array\\<string\\>\\>\\|null given\\.$#"
+			count: 2
+			path: lib/Api/ExportApi.php
+
+		-
+			message: "#^Result of && is always false\\.$#"
+			count: 2
+			path: lib/Api/ExportApi.php
+
+		-
+			message: "#^Short ternary operator is not allowed\\. Use null coalesce operator if applicable or consider using long ternary\\.$#"
+			count: 3
+			path: lib/Api/ExportApi.php
+
+		-
+			message: "#^Strict comparison using \\!\\=\\= between 'object' and 'string' will always evaluate to true\\.$#"
+			count: 1
+			path: lib/Api/ExportApi.php
+
+		-
+			message: "#^Strict comparison using \\!\\=\\= between 'string' and 'string' will always evaluate to false\\.$#"
+			count: 1
+			path: lib/Api/ExportApi.php
+
+		-
+			message: "#^Strict comparison using \\=\\=\\= between 'object' and '\\\\\\\\SplFileObject' will always evaluate to false\\.$#"
+			count: 2
+			path: lib/Api/ExportApi.php
+
+		-
+			message: "#^Strict comparison using \\=\\=\\= between 'string' and '\\\\\\\\SplFileObject' will always evaluate to false\\.$#"
+			count: 2
+			path: lib/Api/ExportApi.php
+
+		-
+			message: "#^Variable \\$_tempBody in isset\\(\\) always exists and is always null\\.$#"
+			count: 2
+			path: lib/Api/ExportApi.php
+
+		-
+			message: "#^Anonymous function has an unused use \\$returnType\\.$#"
+			count: 1
+			path: lib/Api/FlagApi.php
+
+		-
+			message: "#^Call to function in_array\\(\\) requires parameter \\#3 to be set\\.$#"
+			count: 8
+			path: lib/Api/FlagApi.php
+
+		-
+			message: "#^Call to function is_array\\(\\) with Flagr\\\\Client\\\\Model\\\\CreateFlagRequest will always evaluate to false\\.$#"
+			count: 1
+			path: lib/Api/FlagApi.php
+
+		-
+			message: "#^Call to function is_array\\(\\) with Flagr\\\\Client\\\\Model\\\\PutFlagRequest will always evaluate to false\\.$#"
+			count: 1
+			path: lib/Api/FlagApi.php
+
+		-
+			message: "#^Call to function is_array\\(\\) with Flagr\\\\Client\\\\Model\\\\SetFlagEnabledRequest will always evaluate to false\\.$#"
+			count: 1
+			path: lib/Api/FlagApi.php
+
+		-
+			message: "#^Call to function is_array\\(\\) with int will always evaluate to false\\.$#"
+			count: 6
+			path: lib/Api/FlagApi.php
+
+		-
+			message: "#^Comparison operation \"\\>\" between 0 and 0 is always false\\.$#"
+			count: 9
+			path: lib/Api/FlagApi.php
+
+		-
+			message: "#^If condition is always false\\.$#"
+			count: 18
+			path: lib/Api/FlagApi.php
+
+		-
+			message: "#^Instanceof between \\*NEVER\\* and stdClass will always evaluate to false\\.$#"
+			count: 6
+			path: lib/Api/FlagApi.php
+
+		-
+			message: "#^Instanceof between Flagr\\\\Client\\\\Model\\\\CreateFlagRequest and stdClass will always evaluate to false\\.$#"
+			count: 1
+			path: lib/Api/FlagApi.php
+
+		-
+			message: "#^Instanceof between Flagr\\\\Client\\\\Model\\\\PutFlagRequest and stdClass will always evaluate to false\\.$#"
+			count: 1
+			path: lib/Api/FlagApi.php
+
+		-
+			message: "#^Instanceof between Flagr\\\\Client\\\\Model\\\\SetFlagEnabledRequest and stdClass will always evaluate to false\\.$#"
+			count: 1
+			path: lib/Api/FlagApi.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Api\\\\FlagApi\\:\\:createFlagWithHttpInfo\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Api/FlagApi.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Api\\\\FlagApi\\:\\:createHttpClientOption\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Api/FlagApi.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Api\\\\FlagApi\\:\\:deleteFlagWithHttpInfo\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Api/FlagApi.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Api\\\\FlagApi\\:\\:findFlagsWithHttpInfo\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Api/FlagApi.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Api\\\\FlagApi\\:\\:getFlagEntityTypesWithHttpInfo\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Api/FlagApi.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Api\\\\FlagApi\\:\\:getFlagSnapshotsWithHttpInfo\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Api/FlagApi.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Api\\\\FlagApi\\:\\:getFlagWithHttpInfo\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Api/FlagApi.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Api\\\\FlagApi\\:\\:putFlagWithHttpInfo\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Api/FlagApi.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Api\\\\FlagApi\\:\\:restoreFlagWithHttpInfo\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Api/FlagApi.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Api\\\\FlagApi\\:\\:setFlagEnabledWithHttpInfo\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Api/FlagApi.php
+
+		-
+			message: "#^Only booleans are allowed in a negated boolean, resource\\|false given\\.$#"
+			count: 1
+			path: lib/Api/FlagApi.php
+
+		-
+			message: "#^Only booleans are allowed in a ternary operator condition, Psr\\\\Http\\\\Message\\\\ResponseInterface\\|null given\\.$#"
+			count: 18
+			path: lib/Api/FlagApi.php
+
+		-
+			message: "#^Only booleans are allowed in a ternary operator condition, string given\\.$#"
+			count: 9
+			path: lib/Api/FlagApi.php
+
+		-
+			message: "#^Only booleans are allowed in an if condition, string given\\.$#"
+			count: 9
+			path: lib/Api/FlagApi.php
+
+		-
+			message: "#^Parameter \\#1 \\$object of static method Flagr\\\\Client\\\\ObjectSerializer\\:\\:toQueryValue\\(\\) expects array\\<string\\>\\|DateTime\\|string, bool given\\.$#"
+			count: 3
+			path: lib/Api/FlagApi.php
+
+		-
+			message: "#^Parameter \\#1 \\$object of static method Flagr\\\\Client\\\\ObjectSerializer\\:\\:toQueryValue\\(\\) expects array\\<string\\>\\|DateTime\\|string, int given\\.$#"
+			count: 2
+			path: lib/Api/FlagApi.php
+
+		-
+			message: "#^Parameter \\#1 \\$value of static method Flagr\\\\Client\\\\ObjectSerializer\\:\\:toPathValue\\(\\) expects string, int given\\.$#"
+			count: 6
+			path: lib/Api/FlagApi.php
+
+		-
+			message: "#^Parameter \\#3 \\$responseHeaders of class Flagr\\\\Client\\\\ApiException constructor expects array\\<string\\>\\|null, array\\<array\\<string\\>\\> given\\.$#"
+			count: 9
+			path: lib/Api/FlagApi.php
+
+		-
+			message: "#^Parameter \\#3 \\$responseHeaders of class Flagr\\\\Client\\\\ApiException constructor expects array\\<string\\>\\|null, array\\<array\\<string\\>\\>\\|null given\\.$#"
+			count: 9
+			path: lib/Api/FlagApi.php
+
+		-
+			message: "#^Result of && is always false\\.$#"
+			count: 18
+			path: lib/Api/FlagApi.php
+
+		-
+			message: "#^Result of \\|\\| is always false\\.$#"
+			count: 9
+			path: lib/Api/FlagApi.php
+
+		-
+			message: "#^Short ternary operator is not allowed\\. Use null coalesce operator if applicable or consider using long ternary\\.$#"
+			count: 3
+			path: lib/Api/FlagApi.php
+
+		-
+			message: "#^Strict comparison using \\!\\=\\= between '\\\\\\\\Flagr\\\\\\\\Client\\\\\\\\Model…' and 'string' will always evaluate to true\\.$#"
+			count: 7
+			path: lib/Api/FlagApi.php
+
+		-
+			message: "#^Strict comparison using \\!\\=\\= between 'string\\[\\]' and 'string' will always evaluate to true\\.$#"
+			count: 1
+			path: lib/Api/FlagApi.php
+
+		-
+			message: "#^Strict comparison using \\!\\=\\= between int and null will always evaluate to true\\.$#"
+			count: 6
+			path: lib/Api/FlagApi.php
+
+		-
+			message: "#^Strict comparison using \\=\\=\\= between '\\\\\\\\Flagr\\\\\\\\Client\\\\\\\\Model…' and '\\\\\\\\SplFileObject' will always evaluate to false\\.$#"
+			count: 14
+			path: lib/Api/FlagApi.php
+
+		-
+			message: "#^Strict comparison using \\=\\=\\= between 'string\\[\\]' and '\\\\\\\\SplFileObject' will always evaluate to false\\.$#"
+			count: 2
+			path: lib/Api/FlagApi.php
+
+		-
+			message: "#^Strict comparison using \\=\\=\\= between \\*NEVER\\* and 0 will always evaluate to false\\.$#"
+			count: 9
+			path: lib/Api/FlagApi.php
+
+		-
+			message: "#^Strict comparison using \\=\\=\\= between Flagr\\\\Client\\\\Model\\\\CreateFlagRequest and null will always evaluate to false\\.$#"
+			count: 1
+			path: lib/Api/FlagApi.php
+
+		-
+			message: "#^Strict comparison using \\=\\=\\= between Flagr\\\\Client\\\\Model\\\\PutFlagRequest and null will always evaluate to false\\.$#"
+			count: 1
+			path: lib/Api/FlagApi.php
+
+		-
+			message: "#^Strict comparison using \\=\\=\\= between Flagr\\\\Client\\\\Model\\\\SetFlagEnabledRequest and null will always evaluate to false\\.$#"
+			count: 1
+			path: lib/Api/FlagApi.php
+
+		-
+			message: "#^Strict comparison using \\=\\=\\= between int and null will always evaluate to false\\.$#"
+			count: 6
+			path: lib/Api/FlagApi.php
+
+		-
+			message: "#^Variable \\$_tempBody in isset\\(\\) always exists and is always null\\.$#"
+			count: 6
+			path: lib/Api/FlagApi.php
+
+		-
+			message: "#^Variable \\$_tempBody in isset\\(\\) always exists and is not nullable\\.$#"
+			count: 3
+			path: lib/Api/FlagApi.php
+
+		-
+			message: "#^Variable \\$body in isset\\(\\) always exists and is not nullable\\.$#"
+			count: 3
+			path: lib/Api/FlagApi.php
+
+		-
+			message: "#^Call to function in_array\\(\\) requires parameter \\#3 to be set\\.$#"
+			count: 1
+			path: lib/Api/HealthApi.php
+
+		-
+			message: "#^Comparison operation \"\\>\" between 0 and 0 is always false\\.$#"
+			count: 1
+			path: lib/Api/HealthApi.php
+
+		-
+			message: "#^If condition is always false\\.$#"
+			count: 2
+			path: lib/Api/HealthApi.php
+
+		-
+			message: "#^Instanceof between \\*NEVER\\* and stdClass will always evaluate to false\\.$#"
+			count: 1
+			path: lib/Api/HealthApi.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Api\\\\HealthApi\\:\\:createHttpClientOption\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Api/HealthApi.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Api\\\\HealthApi\\:\\:getHealthWithHttpInfo\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Api/HealthApi.php
+
+		-
+			message: "#^Only booleans are allowed in a negated boolean, resource\\|false given\\.$#"
+			count: 1
+			path: lib/Api/HealthApi.php
+
+		-
+			message: "#^Only booleans are allowed in a ternary operator condition, Psr\\\\Http\\\\Message\\\\ResponseInterface\\|null given\\.$#"
+			count: 2
+			path: lib/Api/HealthApi.php
+
+		-
+			message: "#^Only booleans are allowed in a ternary operator condition, string given\\.$#"
+			count: 1
+			path: lib/Api/HealthApi.php
+
+		-
+			message: "#^Only booleans are allowed in an if condition, string given\\.$#"
+			count: 1
+			path: lib/Api/HealthApi.php
+
+		-
+			message: "#^Parameter \\#3 \\$responseHeaders of class Flagr\\\\Client\\\\ApiException constructor expects array\\<string\\>\\|null, array\\<array\\<string\\>\\> given\\.$#"
+			count: 1
+			path: lib/Api/HealthApi.php
+
+		-
+			message: "#^Parameter \\#3 \\$responseHeaders of class Flagr\\\\Client\\\\ApiException constructor expects array\\<string\\>\\|null, array\\<array\\<string\\>\\>\\|null given\\.$#"
+			count: 1
+			path: lib/Api/HealthApi.php
+
+		-
+			message: "#^Result of && is always false\\.$#"
+			count: 1
+			path: lib/Api/HealthApi.php
+
+		-
+			message: "#^Short ternary operator is not allowed\\. Use null coalesce operator if applicable or consider using long ternary\\.$#"
+			count: 3
+			path: lib/Api/HealthApi.php
+
+		-
+			message: "#^Strict comparison using \\!\\=\\= between '\\\\\\\\Flagr\\\\\\\\Client\\\\\\\\Model…' and 'string' will always evaluate to true\\.$#"
+			count: 1
+			path: lib/Api/HealthApi.php
+
+		-
+			message: "#^Strict comparison using \\=\\=\\= between '\\\\\\\\Flagr\\\\\\\\Client\\\\\\\\Model…' and '\\\\\\\\SplFileObject' will always evaluate to false\\.$#"
+			count: 2
+			path: lib/Api/HealthApi.php
+
+		-
+			message: "#^Variable \\$_tempBody in isset\\(\\) always exists and is always null\\.$#"
+			count: 1
+			path: lib/Api/HealthApi.php
+
+		-
+			message: "#^Anonymous function has an unused use \\$returnType\\.$#"
+			count: 2
+			path: lib/Api/SegmentApi.php
+
+		-
+			message: "#^Call to function in_array\\(\\) requires parameter \\#3 to be set\\.$#"
+			count: 3
+			path: lib/Api/SegmentApi.php
+
+		-
+			message: "#^Call to function is_array\\(\\) with Flagr\\\\Client\\\\Model\\\\CreateSegmentRequest will always evaluate to false\\.$#"
+			count: 1
+			path: lib/Api/SegmentApi.php
+
+		-
+			message: "#^Call to function is_array\\(\\) with Flagr\\\\Client\\\\Model\\\\PutSegmentReorderRequest will always evaluate to false\\.$#"
+			count: 1
+			path: lib/Api/SegmentApi.php
+
+		-
+			message: "#^Call to function is_array\\(\\) with Flagr\\\\Client\\\\Model\\\\PutSegmentRequest will always evaluate to false\\.$#"
+			count: 1
+			path: lib/Api/SegmentApi.php
+
+		-
+			message: "#^Call to function is_array\\(\\) with int will always evaluate to false\\.$#"
+			count: 7
+			path: lib/Api/SegmentApi.php
+
+		-
+			message: "#^Comparison operation \"\\>\" between 0 and 0 is always false\\.$#"
+			count: 5
+			path: lib/Api/SegmentApi.php
+
+		-
+			message: "#^If condition is always false\\.$#"
+			count: 10
+			path: lib/Api/SegmentApi.php
+
+		-
+			message: "#^Instanceof between \\*NEVER\\* and stdClass will always evaluate to false\\.$#"
+			count: 2
+			path: lib/Api/SegmentApi.php
+
+		-
+			message: "#^Instanceof between Flagr\\\\Client\\\\Model\\\\CreateSegmentRequest and stdClass will always evaluate to false\\.$#"
+			count: 1
+			path: lib/Api/SegmentApi.php
+
+		-
+			message: "#^Instanceof between Flagr\\\\Client\\\\Model\\\\PutSegmentReorderRequest and stdClass will always evaluate to false\\.$#"
+			count: 1
+			path: lib/Api/SegmentApi.php
+
+		-
+			message: "#^Instanceof between Flagr\\\\Client\\\\Model\\\\PutSegmentRequest and stdClass will always evaluate to false\\.$#"
+			count: 1
+			path: lib/Api/SegmentApi.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Api\\\\SegmentApi\\:\\:createHttpClientOption\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Api/SegmentApi.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Api\\\\SegmentApi\\:\\:createSegmentWithHttpInfo\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Api/SegmentApi.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Api\\\\SegmentApi\\:\\:deleteSegmentWithHttpInfo\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Api/SegmentApi.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Api\\\\SegmentApi\\:\\:findSegmentsWithHttpInfo\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Api/SegmentApi.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Api\\\\SegmentApi\\:\\:putSegmentWithHttpInfo\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Api/SegmentApi.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Api\\\\SegmentApi\\:\\:putSegmentsReorderWithHttpInfo\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Api/SegmentApi.php
+
+		-
+			message: "#^Only booleans are allowed in a negated boolean, resource\\|false given\\.$#"
+			count: 1
+			path: lib/Api/SegmentApi.php
+
+		-
+			message: "#^Only booleans are allowed in a ternary operator condition, Psr\\\\Http\\\\Message\\\\ResponseInterface\\|null given\\.$#"
+			count: 10
+			path: lib/Api/SegmentApi.php
+
+		-
+			message: "#^Only booleans are allowed in a ternary operator condition, string given\\.$#"
+			count: 5
+			path: lib/Api/SegmentApi.php
+
+		-
+			message: "#^Only booleans are allowed in an if condition, string given\\.$#"
+			count: 5
+			path: lib/Api/SegmentApi.php
+
+		-
+			message: "#^Parameter \\#1 \\$value of static method Flagr\\\\Client\\\\ObjectSerializer\\:\\:toPathValue\\(\\) expects string, int given\\.$#"
+			count: 7
+			path: lib/Api/SegmentApi.php
+
+		-
+			message: "#^Parameter \\#3 \\$responseHeaders of class Flagr\\\\Client\\\\ApiException constructor expects array\\<string\\>\\|null, array\\<array\\<string\\>\\> given\\.$#"
+			count: 5
+			path: lib/Api/SegmentApi.php
+
+		-
+			message: "#^Parameter \\#3 \\$responseHeaders of class Flagr\\\\Client\\\\ApiException constructor expects array\\<string\\>\\|null, array\\<array\\<string\\>\\>\\|null given\\.$#"
+			count: 5
+			path: lib/Api/SegmentApi.php
+
+		-
+			message: "#^Result of && is always false\\.$#"
+			count: 15
+			path: lib/Api/SegmentApi.php
+
+		-
+			message: "#^Result of \\|\\| is always false\\.$#"
+			count: 10
+			path: lib/Api/SegmentApi.php
+
+		-
+			message: "#^Short ternary operator is not allowed\\. Use null coalesce operator if applicable or consider using long ternary\\.$#"
+			count: 3
+			path: lib/Api/SegmentApi.php
+
+		-
+			message: "#^Strict comparison using \\!\\=\\= between '\\\\\\\\Flagr\\\\\\\\Client\\\\\\\\Model…' and 'string' will always evaluate to true\\.$#"
+			count: 3
+			path: lib/Api/SegmentApi.php
+
+		-
+			message: "#^Strict comparison using \\!\\=\\= between int and null will always evaluate to true\\.$#"
+			count: 7
+			path: lib/Api/SegmentApi.php
+
+		-
+			message: "#^Strict comparison using \\=\\=\\= between '\\\\\\\\Flagr\\\\\\\\Client\\\\\\\\Model…' and '\\\\\\\\SplFileObject' will always evaluate to false\\.$#"
+			count: 6
+			path: lib/Api/SegmentApi.php
+
+		-
+			message: "#^Strict comparison using \\=\\=\\= between \\*NEVER\\* and 0 will always evaluate to false\\.$#"
+			count: 10
+			path: lib/Api/SegmentApi.php
+
+		-
+			message: "#^Strict comparison using \\=\\=\\= between Flagr\\\\Client\\\\Model\\\\CreateSegmentRequest and null will always evaluate to false\\.$#"
+			count: 1
+			path: lib/Api/SegmentApi.php
+
+		-
+			message: "#^Strict comparison using \\=\\=\\= between Flagr\\\\Client\\\\Model\\\\PutSegmentReorderRequest and null will always evaluate to false\\.$#"
+			count: 1
+			path: lib/Api/SegmentApi.php
+
+		-
+			message: "#^Strict comparison using \\=\\=\\= between Flagr\\\\Client\\\\Model\\\\PutSegmentRequest and null will always evaluate to false\\.$#"
+			count: 1
+			path: lib/Api/SegmentApi.php
+
+		-
+			message: "#^Strict comparison using \\=\\=\\= between int and null will always evaluate to false\\.$#"
+			count: 7
+			path: lib/Api/SegmentApi.php
+
+		-
+			message: "#^Variable \\$_tempBody in isset\\(\\) always exists and is always null\\.$#"
+			count: 2
+			path: lib/Api/SegmentApi.php
+
+		-
+			message: "#^Variable \\$_tempBody in isset\\(\\) always exists and is not nullable\\.$#"
+			count: 3
+			path: lib/Api/SegmentApi.php
+
+		-
+			message: "#^Variable \\$body in isset\\(\\) always exists and is not nullable\\.$#"
+			count: 3
+			path: lib/Api/SegmentApi.php
+
+		-
+			message: "#^Anonymous function has an unused use \\$returnType\\.$#"
+			count: 1
+			path: lib/Api/TagApi.php
+
+		-
+			message: "#^Call to function in_array\\(\\) requires parameter \\#3 to be set\\.$#"
+			count: 3
+			path: lib/Api/TagApi.php
+
+		-
+			message: "#^Call to function is_array\\(\\) with Flagr\\\\Client\\\\Model\\\\CreateTagRequest will always evaluate to false\\.$#"
+			count: 1
+			path: lib/Api/TagApi.php
+
+		-
+			message: "#^Call to function is_array\\(\\) with int will always evaluate to false\\.$#"
+			count: 4
+			path: lib/Api/TagApi.php
+
+		-
+			message: "#^Comparison operation \"\\>\" between 0 and 0 is always false\\.$#"
+			count: 4
+			path: lib/Api/TagApi.php
+
+		-
+			message: "#^If condition is always false\\.$#"
+			count: 8
+			path: lib/Api/TagApi.php
+
+		-
+			message: "#^Instanceof between \\*NEVER\\* and stdClass will always evaluate to false\\.$#"
+			count: 3
+			path: lib/Api/TagApi.php
+
+		-
+			message: "#^Instanceof between Flagr\\\\Client\\\\Model\\\\CreateTagRequest and stdClass will always evaluate to false\\.$#"
+			count: 1
+			path: lib/Api/TagApi.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Api\\\\TagApi\\:\\:createHttpClientOption\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Api/TagApi.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Api\\\\TagApi\\:\\:createTagWithHttpInfo\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Api/TagApi.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Api\\\\TagApi\\:\\:deleteTagWithHttpInfo\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Api/TagApi.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Api\\\\TagApi\\:\\:findAllTagsWithHttpInfo\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Api/TagApi.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Api\\\\TagApi\\:\\:findTagsWithHttpInfo\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Api/TagApi.php
+
+		-
+			message: "#^Only booleans are allowed in a negated boolean, resource\\|false given\\.$#"
+			count: 1
+			path: lib/Api/TagApi.php
+
+		-
+			message: "#^Only booleans are allowed in a ternary operator condition, Psr\\\\Http\\\\Message\\\\ResponseInterface\\|null given\\.$#"
+			count: 8
+			path: lib/Api/TagApi.php
+
+		-
+			message: "#^Only booleans are allowed in a ternary operator condition, string given\\.$#"
+			count: 4
+			path: lib/Api/TagApi.php
+
+		-
+			message: "#^Only booleans are allowed in an if condition, string given\\.$#"
+			count: 4
+			path: lib/Api/TagApi.php
+
+		-
+			message: "#^Parameter \\#1 \\$object of static method Flagr\\\\Client\\\\ObjectSerializer\\:\\:toQueryValue\\(\\) expects array\\<string\\>\\|DateTime\\|string, int given\\.$#"
+			count: 2
+			path: lib/Api/TagApi.php
+
+		-
+			message: "#^Parameter \\#1 \\$value of static method Flagr\\\\Client\\\\ObjectSerializer\\:\\:toPathValue\\(\\) expects string, int given\\.$#"
+			count: 4
+			path: lib/Api/TagApi.php
+
+		-
+			message: "#^Parameter \\#3 \\$responseHeaders of class Flagr\\\\Client\\\\ApiException constructor expects array\\<string\\>\\|null, array\\<array\\<string\\>\\> given\\.$#"
+			count: 4
+			path: lib/Api/TagApi.php
+
+		-
+			message: "#^Parameter \\#3 \\$responseHeaders of class Flagr\\\\Client\\\\ApiException constructor expects array\\<string\\>\\|null, array\\<array\\<string\\>\\>\\|null given\\.$#"
+			count: 4
+			path: lib/Api/TagApi.php
+
+		-
+			message: "#^Result of && is always false\\.$#"
+			count: 9
+			path: lib/Api/TagApi.php
+
+		-
+			message: "#^Result of \\|\\| is always false\\.$#"
+			count: 5
+			path: lib/Api/TagApi.php
+
+		-
+			message: "#^Short ternary operator is not allowed\\. Use null coalesce operator if applicable or consider using long ternary\\.$#"
+			count: 3
+			path: lib/Api/TagApi.php
+
+		-
+			message: "#^Strict comparison using \\!\\=\\= between '\\\\\\\\Flagr\\\\\\\\Client\\\\\\\\Model…' and 'string' will always evaluate to true\\.$#"
+			count: 3
+			path: lib/Api/TagApi.php
+
+		-
+			message: "#^Strict comparison using \\!\\=\\= between int and null will always evaluate to true\\.$#"
+			count: 4
+			path: lib/Api/TagApi.php
+
+		-
+			message: "#^Strict comparison using \\=\\=\\= between '\\\\\\\\Flagr\\\\\\\\Client\\\\\\\\Model…' and '\\\\\\\\SplFileObject' will always evaluate to false\\.$#"
+			count: 6
+			path: lib/Api/TagApi.php
+
+		-
+			message: "#^Strict comparison using \\=\\=\\= between \\*NEVER\\* and 0 will always evaluate to false\\.$#"
+			count: 5
+			path: lib/Api/TagApi.php
+
+		-
+			message: "#^Strict comparison using \\=\\=\\= between Flagr\\\\Client\\\\Model\\\\CreateTagRequest and null will always evaluate to false\\.$#"
+			count: 1
+			path: lib/Api/TagApi.php
+
+		-
+			message: "#^Strict comparison using \\=\\=\\= between int and null will always evaluate to false\\.$#"
+			count: 4
+			path: lib/Api/TagApi.php
+
+		-
+			message: "#^Variable \\$_tempBody in isset\\(\\) always exists and is always null\\.$#"
+			count: 3
+			path: lib/Api/TagApi.php
+
+		-
+			message: "#^Variable \\$_tempBody in isset\\(\\) always exists and is not nullable\\.$#"
+			count: 1
+			path: lib/Api/TagApi.php
+
+		-
+			message: "#^Variable \\$body in isset\\(\\) always exists and is not nullable\\.$#"
+			count: 1
+			path: lib/Api/TagApi.php
+
+		-
+			message: "#^Anonymous function has an unused use \\$returnType\\.$#"
+			count: 1
+			path: lib/Api/VariantApi.php
+
+		-
+			message: "#^Call to function in_array\\(\\) requires parameter \\#3 to be set\\.$#"
+			count: 3
+			path: lib/Api/VariantApi.php
+
+		-
+			message: "#^Call to function is_array\\(\\) with Flagr\\\\Client\\\\Model\\\\CreateVariantRequest will always evaluate to false\\.$#"
+			count: 1
+			path: lib/Api/VariantApi.php
+
+		-
+			message: "#^Call to function is_array\\(\\) with Flagr\\\\Client\\\\Model\\\\PutVariantRequest will always evaluate to false\\.$#"
+			count: 1
+			path: lib/Api/VariantApi.php
+
+		-
+			message: "#^Call to function is_array\\(\\) with int will always evaluate to false\\.$#"
+			count: 6
+			path: lib/Api/VariantApi.php
+
+		-
+			message: "#^Comparison operation \"\\>\" between 0 and 0 is always false\\.$#"
+			count: 4
+			path: lib/Api/VariantApi.php
+
+		-
+			message: "#^If condition is always false\\.$#"
+			count: 8
+			path: lib/Api/VariantApi.php
+
+		-
+			message: "#^Instanceof between \\*NEVER\\* and stdClass will always evaluate to false\\.$#"
+			count: 2
+			path: lib/Api/VariantApi.php
+
+		-
+			message: "#^Instanceof between Flagr\\\\Client\\\\Model\\\\CreateVariantRequest and stdClass will always evaluate to false\\.$#"
+			count: 1
+			path: lib/Api/VariantApi.php
+
+		-
+			message: "#^Instanceof between Flagr\\\\Client\\\\Model\\\\PutVariantRequest and stdClass will always evaluate to false\\.$#"
+			count: 1
+			path: lib/Api/VariantApi.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Api\\\\VariantApi\\:\\:createHttpClientOption\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Api/VariantApi.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Api\\\\VariantApi\\:\\:createVariantWithHttpInfo\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Api/VariantApi.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Api\\\\VariantApi\\:\\:deleteVariantWithHttpInfo\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Api/VariantApi.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Api\\\\VariantApi\\:\\:findVariantsWithHttpInfo\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Api/VariantApi.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Api\\\\VariantApi\\:\\:putVariantWithHttpInfo\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Api/VariantApi.php
+
+		-
+			message: "#^Only booleans are allowed in a negated boolean, resource\\|false given\\.$#"
+			count: 1
+			path: lib/Api/VariantApi.php
+
+		-
+			message: "#^Only booleans are allowed in a ternary operator condition, Psr\\\\Http\\\\Message\\\\ResponseInterface\\|null given\\.$#"
+			count: 8
+			path: lib/Api/VariantApi.php
+
+		-
+			message: "#^Only booleans are allowed in a ternary operator condition, string given\\.$#"
+			count: 4
+			path: lib/Api/VariantApi.php
+
+		-
+			message: "#^Only booleans are allowed in an if condition, string given\\.$#"
+			count: 4
+			path: lib/Api/VariantApi.php
+
+		-
+			message: "#^Parameter \\#1 \\$value of static method Flagr\\\\Client\\\\ObjectSerializer\\:\\:toPathValue\\(\\) expects string, int given\\.$#"
+			count: 6
+			path: lib/Api/VariantApi.php
+
+		-
+			message: "#^Parameter \\#3 \\$responseHeaders of class Flagr\\\\Client\\\\ApiException constructor expects array\\<string\\>\\|null, array\\<array\\<string\\>\\> given\\.$#"
+			count: 4
+			path: lib/Api/VariantApi.php
+
+		-
+			message: "#^Parameter \\#3 \\$responseHeaders of class Flagr\\\\Client\\\\ApiException constructor expects array\\<string\\>\\|null, array\\<array\\<string\\>\\>\\|null given\\.$#"
+			count: 4
+			path: lib/Api/VariantApi.php
+
+		-
+			message: "#^Result of && is always false\\.$#"
+			count: 12
+			path: lib/Api/VariantApi.php
+
+		-
+			message: "#^Result of \\|\\| is always false\\.$#"
+			count: 8
+			path: lib/Api/VariantApi.php
+
+		-
+			message: "#^Short ternary operator is not allowed\\. Use null coalesce operator if applicable or consider using long ternary\\.$#"
+			count: 3
+			path: lib/Api/VariantApi.php
+
+		-
+			message: "#^Strict comparison using \\!\\=\\= between '\\\\\\\\Flagr\\\\\\\\Client\\\\\\\\Model…' and 'string' will always evaluate to true\\.$#"
+			count: 3
+			path: lib/Api/VariantApi.php
+
+		-
+			message: "#^Strict comparison using \\!\\=\\= between int and null will always evaluate to true\\.$#"
+			count: 6
+			path: lib/Api/VariantApi.php
+
+		-
+			message: "#^Strict comparison using \\=\\=\\= between '\\\\\\\\Flagr\\\\\\\\Client\\\\\\\\Model…' and '\\\\\\\\SplFileObject' will always evaluate to false\\.$#"
+			count: 6
+			path: lib/Api/VariantApi.php
+
+		-
+			message: "#^Strict comparison using \\=\\=\\= between \\*NEVER\\* and 0 will always evaluate to false\\.$#"
+			count: 8
+			path: lib/Api/VariantApi.php
+
+		-
+			message: "#^Strict comparison using \\=\\=\\= between Flagr\\\\Client\\\\Model\\\\CreateVariantRequest and null will always evaluate to false\\.$#"
+			count: 1
+			path: lib/Api/VariantApi.php
+
+		-
+			message: "#^Strict comparison using \\=\\=\\= between Flagr\\\\Client\\\\Model\\\\PutVariantRequest and null will always evaluate to false\\.$#"
+			count: 1
+			path: lib/Api/VariantApi.php
+
+		-
+			message: "#^Strict comparison using \\=\\=\\= between int and null will always evaluate to false\\.$#"
+			count: 6
+			path: lib/Api/VariantApi.php
+
+		-
+			message: "#^Variable \\$_tempBody in isset\\(\\) always exists and is always null\\.$#"
+			count: 2
+			path: lib/Api/VariantApi.php
+
+		-
+			message: "#^Variable \\$_tempBody in isset\\(\\) always exists and is not nullable\\.$#"
+			count: 2
+			path: lib/Api/VariantApi.php
+
+		-
+			message: "#^Variable \\$body in isset\\(\\) always exists and is not nullable\\.$#"
+			count: 2
+			path: lib/Api/VariantApi.php
+
+		-
+			message: "#^PHPDoc tag @var has invalid value \\(\\$responseObject;\\)\\: Unexpected token \"\\$responseObject\", expected type at offset 63$#"
+			count: 1
+			path: lib/ApiException.php
+
+		-
+			message: "#^Property Flagr\\\\Client\\\\ApiException\\:\\:\\$responseObject has no type specified\\.$#"
+			count: 1
+			path: lib/ApiException.php
+
+		-
+			message: "#^Call to function is_string\\(\\) with string will always evaluate to true\\.$#"
+			count: 1
+			path: lib/Configuration.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Configuration\\:\\:getApiKey\\(\\) should return string but returns string\\|null\\.$#"
+			count: 1
+			path: lib/Configuration.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Configuration\\:\\:getApiKeyPrefix\\(\\) should return string but returns string\\|null\\.$#"
+			count: 1
+			path: lib/Configuration.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Configuration\\:\\:getApiKeyWithPrefix\\(\\) should return string but returns null\\.$#"
+			count: 1
+			path: lib/Configuration.php
+
+		-
+			message: "#^Property Flagr\\\\Client\\\\Configuration\\:\\:\\$defaultConfiguration has no type specified\\.$#"
+			count: 1
+			path: lib/Configuration.php
+
+		-
+			message: "#^Strict comparison using \\=\\=\\= between string and null will always evaluate to false\\.$#"
+			count: 2
+			path: lib/Configuration.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\HeaderSelector\\:\\:selectAcceptHeader\\(\\) should return string but returns null\\.$#"
+			count: 1
+			path: lib/HeaderSelector.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\HeaderSelector\\:\\:selectHeaders\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/HeaderSelector.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\HeaderSelector\\:\\:selectHeadersForMultipart\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/HeaderSelector.php
+
+		-
+			message: "#^Only booleans are allowed in an elseif condition, array\\|false given\\.$#"
+			count: 2
+			path: lib/HeaderSelector.php
+
+		-
+			message: "#^Strict comparison using \\!\\=\\= between string and null will always evaluate to true\\.$#"
+			count: 1
+			path: lib/HeaderSelector.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Constraint\\:\\:__toString\\(\\) should return string but returns string\\|false\\.$#"
+			count: 2
+			path: lib/Model/Constraint.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Constraint\\:\\:attributeMap\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/Constraint.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Constraint\\:\\:getId\\(\\) should return int but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/Constraint.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Constraint\\:\\:getOperator\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/Constraint.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Constraint\\:\\:getProperty\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/Constraint.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Constraint\\:\\:getValue\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/Constraint.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Constraint\\:\\:getters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/Constraint.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Constraint\\:\\:listInvalidProperties\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/Constraint.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Constraint\\:\\:setters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/Constraint.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Constraint\\:\\:swaggerFormats\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/Constraint.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Constraint\\:\\:swaggerTypes\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/Constraint.php
+
+		-
+			message: "#^Static property Flagr\\\\Client\\\\Model\\\\Constraint\\:\\:\\$swaggerFormats \\(array\\<string\\>\\) does not accept default value of type array\\<string, string\\|null\\>\\.$#"
+			count: 1
+			path: lib/Model/Constraint.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\CreateConstraintRequest\\:\\:__toString\\(\\) should return string but returns string\\|false\\.$#"
+			count: 2
+			path: lib/Model/CreateConstraintRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\CreateConstraintRequest\\:\\:attributeMap\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/CreateConstraintRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\CreateConstraintRequest\\:\\:getOperator\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/CreateConstraintRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\CreateConstraintRequest\\:\\:getProperty\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/CreateConstraintRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\CreateConstraintRequest\\:\\:getValue\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/CreateConstraintRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\CreateConstraintRequest\\:\\:getters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/CreateConstraintRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\CreateConstraintRequest\\:\\:listInvalidProperties\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/CreateConstraintRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\CreateConstraintRequest\\:\\:setters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/CreateConstraintRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\CreateConstraintRequest\\:\\:swaggerFormats\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/CreateConstraintRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\CreateConstraintRequest\\:\\:swaggerTypes\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/CreateConstraintRequest.php
+
+		-
+			message: "#^Static property Flagr\\\\Client\\\\Model\\\\CreateConstraintRequest\\:\\:\\$swaggerFormats \\(array\\<string\\>\\) does not accept default value of type array\\<string, null\\>\\.$#"
+			count: 1
+			path: lib/Model/CreateConstraintRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\CreateFlagRequest\\:\\:__toString\\(\\) should return string but returns string\\|false\\.$#"
+			count: 2
+			path: lib/Model/CreateFlagRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\CreateFlagRequest\\:\\:attributeMap\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/CreateFlagRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\CreateFlagRequest\\:\\:getDescription\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/CreateFlagRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\CreateFlagRequest\\:\\:getKey\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/CreateFlagRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\CreateFlagRequest\\:\\:getTemplate\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/CreateFlagRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\CreateFlagRequest\\:\\:getters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/CreateFlagRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\CreateFlagRequest\\:\\:listInvalidProperties\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/CreateFlagRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\CreateFlagRequest\\:\\:setters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/CreateFlagRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\CreateFlagRequest\\:\\:swaggerFormats\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/CreateFlagRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\CreateFlagRequest\\:\\:swaggerTypes\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/CreateFlagRequest.php
+
+		-
+			message: "#^Static property Flagr\\\\Client\\\\Model\\\\CreateFlagRequest\\:\\:\\$swaggerFormats \\(array\\<string\\>\\) does not accept default value of type array\\<string, null\\>\\.$#"
+			count: 1
+			path: lib/Model/CreateFlagRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\CreateSegmentRequest\\:\\:__toString\\(\\) should return string but returns string\\|false\\.$#"
+			count: 2
+			path: lib/Model/CreateSegmentRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\CreateSegmentRequest\\:\\:attributeMap\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/CreateSegmentRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\CreateSegmentRequest\\:\\:getDescription\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/CreateSegmentRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\CreateSegmentRequest\\:\\:getRolloutPercent\\(\\) should return int but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/CreateSegmentRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\CreateSegmentRequest\\:\\:getters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/CreateSegmentRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\CreateSegmentRequest\\:\\:listInvalidProperties\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/CreateSegmentRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\CreateSegmentRequest\\:\\:setters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/CreateSegmentRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\CreateSegmentRequest\\:\\:swaggerFormats\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/CreateSegmentRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\CreateSegmentRequest\\:\\:swaggerTypes\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/CreateSegmentRequest.php
+
+		-
+			message: "#^Static property Flagr\\\\Client\\\\Model\\\\CreateSegmentRequest\\:\\:\\$swaggerFormats \\(array\\<string\\>\\) does not accept default value of type array\\<string, string\\|null\\>\\.$#"
+			count: 1
+			path: lib/Model/CreateSegmentRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\CreateTagRequest\\:\\:__toString\\(\\) should return string but returns string\\|false\\.$#"
+			count: 2
+			path: lib/Model/CreateTagRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\CreateTagRequest\\:\\:attributeMap\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/CreateTagRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\CreateTagRequest\\:\\:getValue\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/CreateTagRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\CreateTagRequest\\:\\:getters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/CreateTagRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\CreateTagRequest\\:\\:listInvalidProperties\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/CreateTagRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\CreateTagRequest\\:\\:setters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/CreateTagRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\CreateTagRequest\\:\\:swaggerFormats\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/CreateTagRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\CreateTagRequest\\:\\:swaggerTypes\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/CreateTagRequest.php
+
+		-
+			message: "#^Static property Flagr\\\\Client\\\\Model\\\\CreateTagRequest\\:\\:\\$swaggerFormats \\(array\\<string\\>\\) does not accept default value of type array\\<string, null\\>\\.$#"
+			count: 1
+			path: lib/Model/CreateTagRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\CreateVariantRequest\\:\\:__toString\\(\\) should return string but returns string\\|false\\.$#"
+			count: 2
+			path: lib/Model/CreateVariantRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\CreateVariantRequest\\:\\:attributeMap\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/CreateVariantRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\CreateVariantRequest\\:\\:getAttachment\\(\\) should return object but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/CreateVariantRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\CreateVariantRequest\\:\\:getKey\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/CreateVariantRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\CreateVariantRequest\\:\\:getters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/CreateVariantRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\CreateVariantRequest\\:\\:listInvalidProperties\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/CreateVariantRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\CreateVariantRequest\\:\\:setters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/CreateVariantRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\CreateVariantRequest\\:\\:swaggerFormats\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/CreateVariantRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\CreateVariantRequest\\:\\:swaggerTypes\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/CreateVariantRequest.php
+
+		-
+			message: "#^Static property Flagr\\\\Client\\\\Model\\\\CreateVariantRequest\\:\\:\\$swaggerFormats \\(array\\<string\\>\\) does not accept default value of type array\\<string, null\\>\\.$#"
+			count: 1
+			path: lib/Model/CreateVariantRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Distribution\\:\\:__toString\\(\\) should return string but returns string\\|false\\.$#"
+			count: 2
+			path: lib/Model/Distribution.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Distribution\\:\\:attributeMap\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/Distribution.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Distribution\\:\\:getId\\(\\) should return int but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/Distribution.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Distribution\\:\\:getPercent\\(\\) should return int but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/Distribution.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Distribution\\:\\:getVariantId\\(\\) should return int but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/Distribution.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Distribution\\:\\:getVariantKey\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/Distribution.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Distribution\\:\\:getters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/Distribution.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Distribution\\:\\:listInvalidProperties\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/Distribution.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Distribution\\:\\:setters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/Distribution.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Distribution\\:\\:swaggerFormats\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/Distribution.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Distribution\\:\\:swaggerTypes\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/Distribution.php
+
+		-
+			message: "#^Static property Flagr\\\\Client\\\\Model\\\\Distribution\\:\\:\\$swaggerFormats \\(array\\<string\\>\\) does not accept default value of type array\\<string, string\\|null\\>\\.$#"
+			count: 1
+			path: lib/Model/Distribution.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Error\\:\\:__toString\\(\\) should return string but returns string\\|false\\.$#"
+			count: 2
+			path: lib/Model/Error.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Error\\:\\:attributeMap\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/Error.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Error\\:\\:getMessage\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/Error.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Error\\:\\:getters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/Error.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Error\\:\\:listInvalidProperties\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/Error.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Error\\:\\:setters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/Error.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Error\\:\\:swaggerFormats\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/Error.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Error\\:\\:swaggerTypes\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/Error.php
+
+		-
+			message: "#^Static property Flagr\\\\Client\\\\Model\\\\Error\\:\\:\\$swaggerFormats \\(array\\<string\\>\\) does not accept default value of type array\\<string, null\\>\\.$#"
+			count: 1
+			path: lib/Model/Error.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvalContext\\:\\:__toString\\(\\) should return string but returns string\\|false\\.$#"
+			count: 2
+			path: lib/Model/EvalContext.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvalContext\\:\\:attributeMap\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/EvalContext.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvalContext\\:\\:getEnableDebug\\(\\) should return bool but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/EvalContext.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvalContext\\:\\:getEntityContext\\(\\) should return object but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/EvalContext.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvalContext\\:\\:getEntityId\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/EvalContext.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvalContext\\:\\:getEntityType\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/EvalContext.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvalContext\\:\\:getFlagId\\(\\) should return int but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/EvalContext.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvalContext\\:\\:getFlagKey\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/EvalContext.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvalContext\\:\\:getFlagTags\\(\\) should return array\\<string\\> but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/EvalContext.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvalContext\\:\\:getters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/EvalContext.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvalContext\\:\\:listInvalidProperties\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/EvalContext.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvalContext\\:\\:setters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/EvalContext.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvalContext\\:\\:swaggerFormats\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/EvalContext.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvalContext\\:\\:swaggerTypes\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/EvalContext.php
+
+		-
+			message: "#^Static property Flagr\\\\Client\\\\Model\\\\EvalContext\\:\\:\\$swaggerFormats \\(array\\<string\\>\\) does not accept default value of type array\\<string, string\\|null\\>\\.$#"
+			count: 1
+			path: lib/Model/EvalContext.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvalDebugLog\\:\\:__toString\\(\\) should return string but returns string\\|false\\.$#"
+			count: 2
+			path: lib/Model/EvalDebugLog.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvalDebugLog\\:\\:attributeMap\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/EvalDebugLog.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvalDebugLog\\:\\:getMsg\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/EvalDebugLog.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvalDebugLog\\:\\:getSegmentDebugLogs\\(\\) should return array\\<Flagr\\\\Client\\\\Model\\\\SegmentDebugLog\\> but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/EvalDebugLog.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvalDebugLog\\:\\:getters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/EvalDebugLog.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvalDebugLog\\:\\:listInvalidProperties\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/EvalDebugLog.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvalDebugLog\\:\\:setters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/EvalDebugLog.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvalDebugLog\\:\\:swaggerFormats\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/EvalDebugLog.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvalDebugLog\\:\\:swaggerTypes\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/EvalDebugLog.php
+
+		-
+			message: "#^Static property Flagr\\\\Client\\\\Model\\\\EvalDebugLog\\:\\:\\$swaggerFormats \\(array\\<string\\>\\) does not accept default value of type array\\<string, null\\>\\.$#"
+			count: 1
+			path: lib/Model/EvalDebugLog.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvalResult\\:\\:__toString\\(\\) should return string but returns string\\|false\\.$#"
+			count: 2
+			path: lib/Model/EvalResult.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvalResult\\:\\:attributeMap\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/EvalResult.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvalResult\\:\\:getEvalContext\\(\\) should return Flagr\\\\Client\\\\Model\\\\EvalContext but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/EvalResult.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvalResult\\:\\:getEvalDebugLog\\(\\) should return Flagr\\\\Client\\\\Model\\\\EvalDebugLog but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/EvalResult.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvalResult\\:\\:getFlagId\\(\\) should return int but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/EvalResult.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvalResult\\:\\:getFlagKey\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/EvalResult.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvalResult\\:\\:getFlagSnapshotId\\(\\) should return int but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/EvalResult.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvalResult\\:\\:getSegmentId\\(\\) should return int but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/EvalResult.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvalResult\\:\\:getTimestamp\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/EvalResult.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvalResult\\:\\:getVariantAttachment\\(\\) should return object but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/EvalResult.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvalResult\\:\\:getVariantId\\(\\) should return int but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/EvalResult.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvalResult\\:\\:getVariantKey\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/EvalResult.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvalResult\\:\\:getters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/EvalResult.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvalResult\\:\\:listInvalidProperties\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/EvalResult.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvalResult\\:\\:setters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/EvalResult.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvalResult\\:\\:swaggerFormats\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/EvalResult.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvalResult\\:\\:swaggerTypes\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/EvalResult.php
+
+		-
+			message: "#^Static property Flagr\\\\Client\\\\Model\\\\EvalResult\\:\\:\\$swaggerFormats \\(array\\<string\\>\\) does not accept default value of type array\\<string, string\\|null\\>\\.$#"
+			count: 1
+			path: lib/Model/EvalResult.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvaluationBatchRequest\\:\\:__toString\\(\\) should return string but returns string\\|false\\.$#"
+			count: 2
+			path: lib/Model/EvaluationBatchRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvaluationBatchRequest\\:\\:attributeMap\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/EvaluationBatchRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvaluationBatchRequest\\:\\:getEnableDebug\\(\\) should return bool but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/EvaluationBatchRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvaluationBatchRequest\\:\\:getEntities\\(\\) should return array\\<Flagr\\\\Client\\\\Model\\\\EvaluationEntity\\> but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/EvaluationBatchRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvaluationBatchRequest\\:\\:getFlagIDs\\(\\) should return array\\<int\\> but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/EvaluationBatchRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvaluationBatchRequest\\:\\:getFlagKeys\\(\\) should return array\\<string\\> but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/EvaluationBatchRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvaluationBatchRequest\\:\\:getFlagTags\\(\\) should return array\\<string\\> but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/EvaluationBatchRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvaluationBatchRequest\\:\\:getters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/EvaluationBatchRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvaluationBatchRequest\\:\\:listInvalidProperties\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/EvaluationBatchRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvaluationBatchRequest\\:\\:setters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/EvaluationBatchRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvaluationBatchRequest\\:\\:swaggerFormats\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/EvaluationBatchRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvaluationBatchRequest\\:\\:swaggerTypes\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/EvaluationBatchRequest.php
+
+		-
+			message: "#^Static property Flagr\\\\Client\\\\Model\\\\EvaluationBatchRequest\\:\\:\\$swaggerFormats \\(array\\<string\\>\\) does not accept default value of type array\\<string, string\\|null\\>\\.$#"
+			count: 1
+			path: lib/Model/EvaluationBatchRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvaluationBatchResponse\\:\\:__toString\\(\\) should return string but returns string\\|false\\.$#"
+			count: 2
+			path: lib/Model/EvaluationBatchResponse.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvaluationBatchResponse\\:\\:attributeMap\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/EvaluationBatchResponse.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvaluationBatchResponse\\:\\:getEvaluationResults\\(\\) should return array\\<Flagr\\\\Client\\\\Model\\\\EvalResult\\> but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/EvaluationBatchResponse.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvaluationBatchResponse\\:\\:getters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/EvaluationBatchResponse.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvaluationBatchResponse\\:\\:listInvalidProperties\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/EvaluationBatchResponse.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvaluationBatchResponse\\:\\:setters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/EvaluationBatchResponse.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvaluationBatchResponse\\:\\:swaggerFormats\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/EvaluationBatchResponse.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvaluationBatchResponse\\:\\:swaggerTypes\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/EvaluationBatchResponse.php
+
+		-
+			message: "#^Static property Flagr\\\\Client\\\\Model\\\\EvaluationBatchResponse\\:\\:\\$swaggerFormats \\(array\\<string\\>\\) does not accept default value of type array\\<string, null\\>\\.$#"
+			count: 1
+			path: lib/Model/EvaluationBatchResponse.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvaluationEntity\\:\\:__toString\\(\\) should return string but returns string\\|false\\.$#"
+			count: 2
+			path: lib/Model/EvaluationEntity.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvaluationEntity\\:\\:attributeMap\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/EvaluationEntity.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvaluationEntity\\:\\:getEntityContext\\(\\) should return object but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/EvaluationEntity.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvaluationEntity\\:\\:getEntityId\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/EvaluationEntity.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvaluationEntity\\:\\:getEntityType\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/EvaluationEntity.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvaluationEntity\\:\\:getters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/EvaluationEntity.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvaluationEntity\\:\\:listInvalidProperties\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/EvaluationEntity.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvaluationEntity\\:\\:setters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/EvaluationEntity.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvaluationEntity\\:\\:swaggerFormats\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/EvaluationEntity.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\EvaluationEntity\\:\\:swaggerTypes\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/EvaluationEntity.php
+
+		-
+			message: "#^Static property Flagr\\\\Client\\\\Model\\\\EvaluationEntity\\:\\:\\$swaggerFormats \\(array\\<string\\>\\) does not accept default value of type array\\<string, null\\>\\.$#"
+			count: 1
+			path: lib/Model/EvaluationEntity.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Flag\\:\\:__toString\\(\\) should return string but returns string\\|false\\.$#"
+			count: 2
+			path: lib/Model/Flag.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Flag\\:\\:attributeMap\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/Flag.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Flag\\:\\:getCreatedBy\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/Flag.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Flag\\:\\:getDataRecordsEnabled\\(\\) should return bool but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/Flag.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Flag\\:\\:getDescription\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/Flag.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Flag\\:\\:getEnabled\\(\\) should return bool but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/Flag.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Flag\\:\\:getEntityType\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/Flag.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Flag\\:\\:getId\\(\\) should return int but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/Flag.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Flag\\:\\:getKey\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/Flag.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Flag\\:\\:getNotes\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/Flag.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Flag\\:\\:getSegments\\(\\) should return array\\<Flagr\\\\Client\\\\Model\\\\Segment\\> but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/Flag.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Flag\\:\\:getTags\\(\\) should return array\\<Flagr\\\\Client\\\\Model\\\\Tag\\> but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/Flag.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Flag\\:\\:getUpdatedAt\\(\\) should return DateTime but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/Flag.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Flag\\:\\:getUpdatedBy\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/Flag.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Flag\\:\\:getVariants\\(\\) should return array\\<Flagr\\\\Client\\\\Model\\\\Variant\\> but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/Flag.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Flag\\:\\:getters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/Flag.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Flag\\:\\:listInvalidProperties\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/Flag.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Flag\\:\\:setters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/Flag.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Flag\\:\\:swaggerFormats\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/Flag.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Flag\\:\\:swaggerTypes\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/Flag.php
+
+		-
+			message: "#^Static property Flagr\\\\Client\\\\Model\\\\Flag\\:\\:\\$swaggerFormats \\(array\\<string\\>\\) does not accept default value of type array\\<string, string\\|null\\>\\.$#"
+			count: 1
+			path: lib/Model/Flag.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\FlagSnapshot\\:\\:__toString\\(\\) should return string but returns string\\|false\\.$#"
+			count: 2
+			path: lib/Model/FlagSnapshot.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\FlagSnapshot\\:\\:attributeMap\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/FlagSnapshot.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\FlagSnapshot\\:\\:getFlag\\(\\) should return Flagr\\\\Client\\\\Model\\\\Flag but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/FlagSnapshot.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\FlagSnapshot\\:\\:getId\\(\\) should return int but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/FlagSnapshot.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\FlagSnapshot\\:\\:getUpdatedAt\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/FlagSnapshot.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\FlagSnapshot\\:\\:getUpdatedBy\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/FlagSnapshot.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\FlagSnapshot\\:\\:getters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/FlagSnapshot.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\FlagSnapshot\\:\\:listInvalidProperties\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/FlagSnapshot.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\FlagSnapshot\\:\\:setters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/FlagSnapshot.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\FlagSnapshot\\:\\:swaggerFormats\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/FlagSnapshot.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\FlagSnapshot\\:\\:swaggerTypes\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/FlagSnapshot.php
+
+		-
+			message: "#^Static property Flagr\\\\Client\\\\Model\\\\FlagSnapshot\\:\\:\\$swaggerFormats \\(array\\<string\\>\\) does not accept default value of type array\\<string, string\\|null\\>\\.$#"
+			count: 1
+			path: lib/Model/FlagSnapshot.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Health\\:\\:__toString\\(\\) should return string but returns string\\|false\\.$#"
+			count: 2
+			path: lib/Model/Health.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Health\\:\\:attributeMap\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/Health.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Health\\:\\:getStatus\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/Health.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Health\\:\\:getters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/Health.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Health\\:\\:listInvalidProperties\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/Health.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Health\\:\\:setters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/Health.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Health\\:\\:swaggerFormats\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/Health.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Health\\:\\:swaggerTypes\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/Health.php
+
+		-
+			message: "#^Static property Flagr\\\\Client\\\\Model\\\\Health\\:\\:\\$swaggerFormats \\(array\\<string\\>\\) does not accept default value of type array\\<string, null\\>\\.$#"
+			count: 1
+			path: lib/Model/Health.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\ModelInterface\\:\\:attributeMap\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/ModelInterface.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\ModelInterface\\:\\:getters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/ModelInterface.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\ModelInterface\\:\\:listInvalidProperties\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/ModelInterface.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\ModelInterface\\:\\:setters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/ModelInterface.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\ModelInterface\\:\\:swaggerFormats\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/ModelInterface.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\ModelInterface\\:\\:swaggerTypes\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/ModelInterface.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\PutDistributionsRequest\\:\\:__toString\\(\\) should return string but returns string\\|false\\.$#"
+			count: 2
+			path: lib/Model/PutDistributionsRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\PutDistributionsRequest\\:\\:attributeMap\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/PutDistributionsRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\PutDistributionsRequest\\:\\:getDistributions\\(\\) should return array\\<Flagr\\\\Client\\\\Model\\\\Distribution\\> but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/PutDistributionsRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\PutDistributionsRequest\\:\\:getters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/PutDistributionsRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\PutDistributionsRequest\\:\\:listInvalidProperties\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/PutDistributionsRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\PutDistributionsRequest\\:\\:setters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/PutDistributionsRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\PutDistributionsRequest\\:\\:swaggerFormats\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/PutDistributionsRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\PutDistributionsRequest\\:\\:swaggerTypes\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/PutDistributionsRequest.php
+
+		-
+			message: "#^Static property Flagr\\\\Client\\\\Model\\\\PutDistributionsRequest\\:\\:\\$swaggerFormats \\(array\\<string\\>\\) does not accept default value of type array\\<string, null\\>\\.$#"
+			count: 1
+			path: lib/Model/PutDistributionsRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\PutFlagRequest\\:\\:__toString\\(\\) should return string but returns string\\|false\\.$#"
+			count: 2
+			path: lib/Model/PutFlagRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\PutFlagRequest\\:\\:attributeMap\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/PutFlagRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\PutFlagRequest\\:\\:getDataRecordsEnabled\\(\\) should return bool but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/PutFlagRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\PutFlagRequest\\:\\:getDescription\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/PutFlagRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\PutFlagRequest\\:\\:getEnabled\\(\\) should return bool but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/PutFlagRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\PutFlagRequest\\:\\:getEntityType\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/PutFlagRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\PutFlagRequest\\:\\:getKey\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/PutFlagRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\PutFlagRequest\\:\\:getNotes\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/PutFlagRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\PutFlagRequest\\:\\:getters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/PutFlagRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\PutFlagRequest\\:\\:listInvalidProperties\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/PutFlagRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\PutFlagRequest\\:\\:setters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/PutFlagRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\PutFlagRequest\\:\\:swaggerFormats\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/PutFlagRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\PutFlagRequest\\:\\:swaggerTypes\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/PutFlagRequest.php
+
+		-
+			message: "#^Static property Flagr\\\\Client\\\\Model\\\\PutFlagRequest\\:\\:\\$swaggerFormats \\(array\\<string\\>\\) does not accept default value of type array\\<string, null\\>\\.$#"
+			count: 1
+			path: lib/Model/PutFlagRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\PutSegmentReorderRequest\\:\\:__toString\\(\\) should return string but returns string\\|false\\.$#"
+			count: 2
+			path: lib/Model/PutSegmentReorderRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\PutSegmentReorderRequest\\:\\:attributeMap\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/PutSegmentReorderRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\PutSegmentReorderRequest\\:\\:getSegmentIDs\\(\\) should return array\\<int\\> but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/PutSegmentReorderRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\PutSegmentReorderRequest\\:\\:getters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/PutSegmentReorderRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\PutSegmentReorderRequest\\:\\:listInvalidProperties\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/PutSegmentReorderRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\PutSegmentReorderRequest\\:\\:setters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/PutSegmentReorderRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\PutSegmentReorderRequest\\:\\:swaggerFormats\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/PutSegmentReorderRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\PutSegmentReorderRequest\\:\\:swaggerTypes\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/PutSegmentReorderRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\PutSegmentRequest\\:\\:__toString\\(\\) should return string but returns string\\|false\\.$#"
+			count: 2
+			path: lib/Model/PutSegmentRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\PutSegmentRequest\\:\\:attributeMap\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/PutSegmentRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\PutSegmentRequest\\:\\:getDescription\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/PutSegmentRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\PutSegmentRequest\\:\\:getRolloutPercent\\(\\) should return int but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/PutSegmentRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\PutSegmentRequest\\:\\:getters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/PutSegmentRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\PutSegmentRequest\\:\\:listInvalidProperties\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/PutSegmentRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\PutSegmentRequest\\:\\:setters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/PutSegmentRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\PutSegmentRequest\\:\\:swaggerFormats\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/PutSegmentRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\PutSegmentRequest\\:\\:swaggerTypes\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/PutSegmentRequest.php
+
+		-
+			message: "#^Static property Flagr\\\\Client\\\\Model\\\\PutSegmentRequest\\:\\:\\$swaggerFormats \\(array\\<string\\>\\) does not accept default value of type array\\<string, string\\|null\\>\\.$#"
+			count: 1
+			path: lib/Model/PutSegmentRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\PutVariantRequest\\:\\:__toString\\(\\) should return string but returns string\\|false\\.$#"
+			count: 2
+			path: lib/Model/PutVariantRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\PutVariantRequest\\:\\:attributeMap\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/PutVariantRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\PutVariantRequest\\:\\:getAttachment\\(\\) should return object but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/PutVariantRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\PutVariantRequest\\:\\:getKey\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/PutVariantRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\PutVariantRequest\\:\\:getters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/PutVariantRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\PutVariantRequest\\:\\:listInvalidProperties\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/PutVariantRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\PutVariantRequest\\:\\:setters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/PutVariantRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\PutVariantRequest\\:\\:swaggerFormats\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/PutVariantRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\PutVariantRequest\\:\\:swaggerTypes\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/PutVariantRequest.php
+
+		-
+			message: "#^Static property Flagr\\\\Client\\\\Model\\\\PutVariantRequest\\:\\:\\$swaggerFormats \\(array\\<string\\>\\) does not accept default value of type array\\<string, null\\>\\.$#"
+			count: 1
+			path: lib/Model/PutVariantRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Segment\\:\\:__toString\\(\\) should return string but returns string\\|false\\.$#"
+			count: 2
+			path: lib/Model/Segment.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Segment\\:\\:attributeMap\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/Segment.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Segment\\:\\:getConstraints\\(\\) should return array\\<Flagr\\\\Client\\\\Model\\\\Constraint\\> but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/Segment.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Segment\\:\\:getDescription\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/Segment.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Segment\\:\\:getDistributions\\(\\) should return array\\<Flagr\\\\Client\\\\Model\\\\Distribution\\> but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/Segment.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Segment\\:\\:getId\\(\\) should return int but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/Segment.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Segment\\:\\:getRank\\(\\) should return int but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/Segment.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Segment\\:\\:getRolloutPercent\\(\\) should return int but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/Segment.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Segment\\:\\:getters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/Segment.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Segment\\:\\:listInvalidProperties\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/Segment.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Segment\\:\\:setters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/Segment.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Segment\\:\\:swaggerFormats\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/Segment.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Segment\\:\\:swaggerTypes\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/Segment.php
+
+		-
+			message: "#^Static property Flagr\\\\Client\\\\Model\\\\Segment\\:\\:\\$swaggerFormats \\(array\\<string\\>\\) does not accept default value of type array\\<string, string\\|null\\>\\.$#"
+			count: 1
+			path: lib/Model/Segment.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\SegmentDebugLog\\:\\:__toString\\(\\) should return string but returns string\\|false\\.$#"
+			count: 2
+			path: lib/Model/SegmentDebugLog.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\SegmentDebugLog\\:\\:attributeMap\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/SegmentDebugLog.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\SegmentDebugLog\\:\\:getMsg\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/SegmentDebugLog.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\SegmentDebugLog\\:\\:getSegmentId\\(\\) should return int but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/SegmentDebugLog.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\SegmentDebugLog\\:\\:getters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/SegmentDebugLog.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\SegmentDebugLog\\:\\:listInvalidProperties\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/SegmentDebugLog.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\SegmentDebugLog\\:\\:setters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/SegmentDebugLog.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\SegmentDebugLog\\:\\:swaggerFormats\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/SegmentDebugLog.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\SegmentDebugLog\\:\\:swaggerTypes\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/SegmentDebugLog.php
+
+		-
+			message: "#^Static property Flagr\\\\Client\\\\Model\\\\SegmentDebugLog\\:\\:\\$swaggerFormats \\(array\\<string\\>\\) does not accept default value of type array\\<string, string\\|null\\>\\.$#"
+			count: 1
+			path: lib/Model/SegmentDebugLog.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\SetFlagEnabledRequest\\:\\:__toString\\(\\) should return string but returns string\\|false\\.$#"
+			count: 2
+			path: lib/Model/SetFlagEnabledRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\SetFlagEnabledRequest\\:\\:attributeMap\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/SetFlagEnabledRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\SetFlagEnabledRequest\\:\\:getEnabled\\(\\) should return bool but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/SetFlagEnabledRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\SetFlagEnabledRequest\\:\\:getters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/SetFlagEnabledRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\SetFlagEnabledRequest\\:\\:listInvalidProperties\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/SetFlagEnabledRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\SetFlagEnabledRequest\\:\\:setters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/SetFlagEnabledRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\SetFlagEnabledRequest\\:\\:swaggerFormats\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/SetFlagEnabledRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\SetFlagEnabledRequest\\:\\:swaggerTypes\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/SetFlagEnabledRequest.php
+
+		-
+			message: "#^Static property Flagr\\\\Client\\\\Model\\\\SetFlagEnabledRequest\\:\\:\\$swaggerFormats \\(array\\<string\\>\\) does not accept default value of type array\\<string, null\\>\\.$#"
+			count: 1
+			path: lib/Model/SetFlagEnabledRequest.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Tag\\:\\:__toString\\(\\) should return string but returns string\\|false\\.$#"
+			count: 2
+			path: lib/Model/Tag.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Tag\\:\\:attributeMap\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/Tag.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Tag\\:\\:getId\\(\\) should return int but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/Tag.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Tag\\:\\:getValue\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/Tag.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Tag\\:\\:getters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/Tag.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Tag\\:\\:listInvalidProperties\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/Tag.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Tag\\:\\:setters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/Tag.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Tag\\:\\:swaggerFormats\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/Tag.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Tag\\:\\:swaggerTypes\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/Tag.php
+
+		-
+			message: "#^Static property Flagr\\\\Client\\\\Model\\\\Tag\\:\\:\\$swaggerFormats \\(array\\<string\\>\\) does not accept default value of type array\\<string, string\\|null\\>\\.$#"
+			count: 1
+			path: lib/Model/Tag.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Variant\\:\\:__toString\\(\\) should return string but returns string\\|false\\.$#"
+			count: 2
+			path: lib/Model/Variant.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Variant\\:\\:attributeMap\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/Variant.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Variant\\:\\:getAttachment\\(\\) should return object but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/Variant.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Variant\\:\\:getId\\(\\) should return int but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/Variant.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Variant\\:\\:getKey\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: lib/Model/Variant.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Variant\\:\\:getters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/Variant.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Variant\\:\\:listInvalidProperties\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/Variant.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Variant\\:\\:setters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/Variant.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Variant\\:\\:swaggerFormats\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/Variant.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\Model\\\\Variant\\:\\:swaggerTypes\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/Model/Variant.php
+
+		-
+			message: "#^Static property Flagr\\\\Client\\\\Model\\\\Variant\\:\\:\\$swaggerFormats \\(array\\<string\\>\\) does not accept default value of type array\\<string, string\\|null\\>\\.$#"
+			count: 1
+			path: lib/Model/Variant.php
+
+		-
+			message: "#^Argument of an invalid type mixed supplied for foreach, only iterables are supported\\.$#"
+			count: 2
+			path: lib/ObjectSerializer.php
+
+		-
+			message: "#^Call to an undefined static method object\\:\\:attributeMap\\(\\)\\.$#"
+			count: 3
+			path: lib/ObjectSerializer.php
+
+		-
+			message: "#^Call to an undefined static method object\\:\\:getters\\(\\)\\.$#"
+			count: 1
+			path: lib/ObjectSerializer.php
+
+		-
+			message: "#^Call to an undefined static method object\\:\\:setters\\(\\)\\.$#"
+			count: 1
+			path: lib/ObjectSerializer.php
+
+		-
+			message: "#^Call to an undefined static method object\\:\\:swaggerFormats\\(\\)\\.$#"
+			count: 1
+			path: lib/ObjectSerializer.php
+
+		-
+			message: "#^Call to an undefined static method object\\:\\:swaggerTypes\\(\\)\\.$#"
+			count: 2
+			path: lib/ObjectSerializer.php
+
+		-
+			message: "#^Call to function in_array\\(\\) requires parameter \\#3 to be set\\.$#"
+			count: 2
+			path: lib/ObjectSerializer.php
+
+		-
+			message: "#^Cannot cast mixed to string\\.$#"
+			count: 1
+			path: lib/ObjectSerializer.php
+
+		-
+			message: "#^Construct empty\\(\\) is not allowed\\. Use more strict comparison\\.$#"
+			count: 2
+			path: lib/ObjectSerializer.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\ObjectSerializer\\:\\:deserialize\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/ObjectSerializer.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\ObjectSerializer\\:\\:deserialize\\(\\) should return array\\|object\\|null but returns mixed\\.$#"
+			count: 3
+			path: lib/ObjectSerializer.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\ObjectSerializer\\:\\:sanitizeForSerialization\\(\\) should return object\\|string but returns array\\.$#"
+			count: 1
+			path: lib/ObjectSerializer.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\ObjectSerializer\\:\\:sanitizeForSerialization\\(\\) should return object\\|string but returns bool\\|float\\|int\\|string\\|null\\.$#"
+			count: 1
+			path: lib/ObjectSerializer.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\ObjectSerializer\\:\\:serializeCollection\\(\\) has parameter \\$collection with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: lib/ObjectSerializer.php
+
+		-
+			message: "#^Method Flagr\\\\Client\\\\ObjectSerializer\\:\\:serializeCollection\\(\\) should return string but returns string\\|null\\.$#"
+			count: 1
+			path: lib/ObjectSerializer.php
+
+		-
+			message: "#^Only booleans are allowed in &&, int\\|false given on the right side\\.$#"
+			count: 1
+			path: lib/ObjectSerializer.php
+
+		-
+			message: "#^Only booleans are allowed in an if condition, int\\|false given\\.$#"
+			count: 1
+			path: lib/ObjectSerializer.php
+
+		-
+			message: "#^PHPDoc tag @param references unknown parameter\\: \\$discriminator$#"
+			count: 1
+			path: lib/ObjectSerializer.php
+
+		-
+			message: "#^Parameter \\#1 \\$datetime of class DateTime constructor expects string, mixed given\\.$#"
+			count: 1
+			path: lib/ObjectSerializer.php
+
+		-
+			message: "#^Parameter \\#1 \\$filename of class SplFileObject constructor expects string, string\\|false given\\.$#"
+			count: 1
+			path: lib/ObjectSerializer.php
+
+		-
+			message: "#^Parameter \\#1 \\$filename of function fopen expects string, string\\|false given\\.$#"
+			count: 1
+			path: lib/ObjectSerializer.php
+
+		-
+			message: "#^Parameter \\#1 \\$stream of function fclose expects resource, resource\\|false given\\.$#"
+			count: 1
+			path: lib/ObjectSerializer.php
+
+		-
+			message: "#^Parameter \\#1 \\$stream of function fwrite expects resource, resource\\|false given\\.$#"
+			count: 1
+			path: lib/ObjectSerializer.php
+
+		-
+			message: "#^Parameter \\#2 \\$array of function array_key_exists expects array, array\\<string\\>\\|null given\\.$#"
+			count: 1
+			path: lib/ObjectSerializer.php
+
+		-
+			message: "#^Part \\$swaggerType \\(class\\-string\\|object\\) of encapsed string cannot be cast to string\\.$#"
+			count: 1
+			path: lib/ObjectSerializer.php
+
+		-
+			message: "#^Static call to instance method stdClass\\:\\:getAllowableEnumValues\\(\\)\\.$#"
+			count: 2
+			path: lib/ObjectSerializer.php
+
+		-
+			message: "#^Static method Flagr\\\\Client\\\\ObjectSerializer\\:\\:sanitizeForSerialization\\(\\) invoked with 3 parameters, 1\\-2 required\\.$#"
+			count: 1
+			path: lib/ObjectSerializer.php
+
+		-
+			message: "#^Variable \\$propertyValue in isset\\(\\) always exists and is not nullable\\.$#"
+			count: 1
+			path: lib/ObjectSerializer.php
+
+		-
+			message: "#^Variable method call on object\\.$#"
+			count: 2
+			path: lib/ObjectSerializer.php
+
+		-
+			message: "#^Variable property access on mixed\\.$#"
+			count: 5
+			path: lib/ObjectSerializer.php
