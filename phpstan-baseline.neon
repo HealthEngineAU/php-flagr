@@ -1187,7 +1187,7 @@ parameters:
 
 		-
 			message: "#^Strict comparison using \\=\\=\\= between '\\\\\\\\Flagr\\\\\\\\Client\\\\\\\\Model…' and '\\\\\\\\SplFileObject' will always evaluate to false\\.$#"
-			count: 6
+			count: 5
 			path: lib/Api/TagApi.php
 
 		-
@@ -3127,21 +3127,6 @@ parameters:
 
 		-
 			message: "#^Parameter \\#1 \\$filename of function fopen expects string, string\\|false given\\.$#"
-			count: 1
-			path: lib/ObjectSerializer.php
-
-		-
-			message: "#^Parameter \\#1 \\$stream of function fclose expects resource, resource\\|false given\\.$#"
-			count: 1
-			path: lib/ObjectSerializer.php
-
-		-
-			message: "#^Parameter \\#1 \\$stream of function fwrite expects resource, resource\\|false given\\.$#"
-			count: 1
-			path: lib/ObjectSerializer.php
-
-		-
-			message: "#^Parameter \\#2 \\$array of function array_key_exists expects array, array\\<string\\>\\|null given\\.$#"
 			count: 1
 			path: lib/ObjectSerializer.php
 

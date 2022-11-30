@@ -270,14 +270,22 @@ class ObjectSerializer
             /** @var \Psr\Http\Message\StreamInterface $data */
 
             // determine file name
-            if (array_key_exists('Content-Disposition', $httpHeaders) &&
-                preg_match('/inline; filename=[\'"]?([^\'"\s]+)[\'"]?$/i', $httpHeaders['Content-Disposition'], $match)) {
+            if (
+                is_array($httpHeaders)
+                && array_key_exists('Content-Disposition', $httpHeaders)
+                && preg_match('/inline; filename=[\'"]?([^\'"\s]+)[\'"]?$/i', $httpHeaders['Content-Disposition'], $match)
+            ) {
                 $filename = Configuration::getDefaultConfiguration()->getTempFolderPath() . DIRECTORY_SEPARATOR . self::sanitizeFilename($match[1]);
             } else {
                 $filename = tempnam(Configuration::getDefaultConfiguration()->getTempFolderPath(), '');
             }
 
             $file = fopen($filename, 'w');
+
+            if ($file === false) {
+                throw new \RuntimeException('Temporary directory not writable');
+            }
+
             while ($chunk = $data->read(200)) {
                 fwrite($file, $chunk);
             }

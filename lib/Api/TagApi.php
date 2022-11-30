@@ -146,13 +146,10 @@ class TagApi
             }
 
             $responseBody = $response->getBody();
-            if ($returnType === '\SplFileObject') {
-                $content = $responseBody; //stream goes to serializer
-            } else {
-                $content = $responseBody->getContents();
-                if (!in_array($returnType, ['string','integer','bool'])) {
-                    $content = json_decode($content);
-                }
+            $content = $responseBody->getContents();
+
+            if (!in_array($returnType, ['string','integer','bool'])) {
+                $content = json_decode($content);
             }
 
             return [
