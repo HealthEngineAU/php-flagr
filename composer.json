@@ -40,7 +40,7 @@
         }
     },
     "scripts": {
-        "analyse": "@phpstan analyse lib",
+        "analyse": "@phpstan analyse --xdebug",
         "fix": "@php-cs-fixer fix",
         "lint": "@php-cs-fixer fix --diff --dry-run",
         "php-cs-fixer": "@php vendor/bin/php-cs-fixer",
