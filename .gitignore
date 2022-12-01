@@ -1,4 +1,4 @@
-.php_cs.cache
-git_push.sh
+.idea
+.php-cs-fixer.cache
 composer.lock
 vendor
