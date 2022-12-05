@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [v2.0.0] - 2022-12-05
+
 ### Added
 
 - PHPStan analysis to Travis CI.
@@ -39,7 +41,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - First release of this package.
 
-[unreleased]: https://github.com/HealthEngineAU/php-flagr/compare/1.1.13.1...HEAD
+[unreleased]: https://github.com/HealthEngineAU/php-flagr/compare/HEAD...v2.0.0
+[v2.0.0]: https://github.com/HealthEngineAU/php-flagr/compare/v2.0.0...1.1.13.1
 [1.1.13.1]: https://github.com/HealthEngineAU/php-flagr/compare/1.1.13.1...1.1.13
 [1.1.13]: https://github.com/HealthEngineAU/php-flagr/compare/1.1.13...1.1.12
 [1.1.12]: https://github.com/HealthEngineAU/php-flagr/releases/tag/1.1.12
